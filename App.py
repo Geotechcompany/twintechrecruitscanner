@@ -98,7 +98,7 @@ def insert_data(name, email, res_score, timestamp, no_of_pages, reco_field, cand
 
 st.set_page_config(
     page_title="Twin-tech AI Resume scanner",
-  
+  page_icon='./Logo/logo-black.png',
 )
 
 
@@ -110,7 +110,7 @@ def run():
     # link = '[©Developed by Arthur]
     # st.sidebar.markdown(link, unsafe_allow_html=True)
     img = Image.open('./Logo/logo-black.png')
-    img = img.resize((100, 250))
+    img = img.resize((250, 100))
     st.image(img)
 
     # Create the DB
