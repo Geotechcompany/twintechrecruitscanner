@@ -80,8 +80,7 @@ def course_recommender(course_list):
             break
     return rec_course
 
-
-connection = pymysql.connect(host='localhost', user='root', password='')
+connection = pymysql.connect(host='db4free.net', user='twintechscanner', password='@Locamade12182')
 cursor = connection.cursor()
 
 
