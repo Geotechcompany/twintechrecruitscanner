@@ -113,9 +113,7 @@ def run():
     img = img.resize((250, 100))
     st.image(img)
 
-# Center the image using HTML
-centered_img = f'<div style="display: flex; justify-content: center;"><img src="data:image/png;base64,{img}" alt="centered image"></div>'
-st.write(centered_img, unsafe_allow_html=True)
+
     # Create the DB
     db_sql = """CREATE DATABASE IF NOT EXISTS twintechscanner;"""
     cursor.execute(db_sql)
