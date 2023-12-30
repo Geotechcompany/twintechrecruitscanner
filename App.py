@@ -116,7 +116,7 @@ def run():
     # Create the DB
     db_sql = """CREATE DATABASE IF NOT EXISTS SRA;"""
     cursor.execute(db_sql)
-    connection.select_db("sra")
+    connection.select_db("twintechscanner")
 
     # Create table
     DB_table_name = 'user_data'
