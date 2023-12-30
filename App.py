@@ -98,7 +98,7 @@ def insert_data(name, email, res_score, timestamp, no_of_pages, reco_field, cand
 
 st.set_page_config(
     page_title="Twin-tech AI Resume scanner",
-    page_icon='./Logo/logo-black.png',
+  
 )
 
 
