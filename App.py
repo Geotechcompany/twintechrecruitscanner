@@ -110,7 +110,7 @@ def run():
     # link = '[©Developed by Arthur]
     # st.sidebar.markdown(link, unsafe_allow_html=True)
     img = Image.open('./Logo/logo-black.png')
-    img = img.resize((250, 250))
+    img = img.resize((100, 250))
     st.image(img)
 
     # Create the DB
