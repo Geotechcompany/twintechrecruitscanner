@@ -110,7 +110,7 @@ def run():
     # link = '[©Developed by Arthur]
     # st.sidebar.markdown(link, unsafe_allow_html=True)
     img = Image.open('./Logo/logo-black.png')
-    img = img.resize((250, 100))
+    img = img.resize((250, 200))
     st.image(img)
 
 
